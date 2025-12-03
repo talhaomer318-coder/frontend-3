@@ -585,12 +585,12 @@ width: 1234px;
         position: absolute;
         margin: 0px 0px 0px 205px;
     }
-     .label{
+     #label{
             width: 103px;
-            height: 23px;
+            height: 0px;
             position: absolute; 
             margin-left: 275px;
-            margin-top: 9px;
+            margin-top: 38px;
               font-size: 18px;
             font-weight: 400px;
 
@@ -667,11 +667,11 @@ width: 1234px;
             width: 180px;
             height: 29px;
         }
-        .linkdin-img{
+        .link-img{
             width: 30px;
             height: 30px;
         }
-        .face.img{
+        .face-img{
             width: 30px;
             height: 30px;
         }
@@ -695,6 +695,11 @@ width: 1234px;
     margin-right: 60px;
     align-items: center;
 }
+.postivus-img{
+    width: 180px;
+    height: 29px;
+}
+
 .anchors a{
     width: 501px;
     height: 23px;
@@ -1379,15 +1384,14 @@ margin: 50px 50px 254px 50px !important;
             bottom: 474px;
             right: 310px;
         }
-        .label{
-            width: 92px;
-            height: 10px;
+        #label{
+        width: 92px;
+            height: 0px;
             position: absolute; 
             margin-left: 240px;
-            margin-top: 0px;
+            margin-top: 20px;
             font-size: 16px;
             font-weight: 400px;
-
         }
          .second-check{
             width: 28px ;
@@ -1458,7 +1462,113 @@ margin: 50px 50px 254px 50px !important;
             font-size: 20px;
             font-weight: 400px;
         }
+#footer{
+    width: 100%;
+    margin:  auto;
+    height: 945px;
+    margin-top: 140px;
+    background-color: black;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+.foot-head{
+    display: flex;
+    justify-content: space-between ;
+    flex-direction: column;
+    margin-top: 55PX;
+    margin-left: 60px;
+    margin-right: 60px;
+    align-items: center;
+}
+.anchors a{
+    display: flex;
+    margin-top: 50px;
+    width: 79px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px;
+    color: #F3F3F3;
+    font-size: 16px;
+    font-weight: 400px;
 
+}
+.postivus-img{
+    width: 144px;
+    height: 23.61px;
+}
+.hidden-blog{
+    display: none !important;
+}
+.contact{
+    position: absolute;
+    margin-top: 25%;
+    width: 115px;
+    height: 23px;
+    background-color: #B9FF66;
+    font-weight: 500px;
+    font-size: 18px;
+    border-radius: 10px;
+}
 
+        .inside-div{
+    background-color: #292A32;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 390px;
+    height: 216px;
+    border-radius: 14px;
+        margin-left:33% ;
+    margin-top: 27%;
+
+}
+.information{
+    color: white;
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 10%;
+    line-height: 30px;
+}
+.first-button{
+    display: flex;
+    flex-direction: column;
+    position: absolute ;
+    border-radius: 14px;
+    border: solid 1px #FFFFFF;
+    padding:21px 265px 21px 25px ;
+    margin: 30px 30px 120px 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.second-button{
+position: absolute;
+width: 180px;
+ padding: 20px 75.5px 20px 75.5px;
+margin: 118px 30px 30px 30px ;
+background-color: #B9FF66;
+border-radius: 14px;
+font-size: 20px;
+font-weight: 400px;
+}
+.image-div{
+    position: absolute;
+    margin-top: 710.5px;
+}
+.foot-line{
+    color: #FFFFFF;
+    width: 90%;
+    position: absolute;
+    margin-top: 790px;
+}
+.last-item{
+    display:flex ;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 820px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 20px;
+}
 
 }
